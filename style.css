@@ -1,0 +1,141 @@
+body
+{
+	background-color: #111513;
+	/*color: lightgray;*/
+	color: #DDDDDD;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+}
+
+#container
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#hangman
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 300px;
+	margin-top: 30px;
+}
+
+#board
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 48px;
+	/*text-transform: uppercase;*/
+}
+
+#letters
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 540px;
+	min-height: 300px;
+	text-align: center;
+}
+
+#title
+{
+	width: 900px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 48px;
+}
+
+#category
+{
+	margin-top: 10px;
+	width: 900px;
+	text-align: center;
+	font-size: 32px;
+}
+
+.letter
+{
+	font-size: 24px;
+	background-color: black;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin-right: 14px;
+	margin-left: 16px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+	border: 3px solid #505050;
+	opacity: 0.6;
+}
+
+
+.letter:hover
+{
+	/* background-color: #444444; */
+	color: white;
+	/* border: 3px solid white; */
+	opacity: 1.0;
+}
+
+.reset
+{
+	cursor: pointer;
+	font-size: 36px;
+	color: gray;
+}
+
+.reset:hover
+{
+	color: lightgray;
+
+
+}
+
+#newpassword
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 20px;
+	border: 3px solid gray;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	opacity: 0.8;
+}
+
+#newpassword:hover
+{
+	cursor: pointer;
+	
+	opacity: 1.0;
+}
+
+/*#help
+{
+	float:left;
+	width: 200px;
+	height: 30px;
+	border: 3px solid gray;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#help:hover
+{
+	cursor: pointer;
+	background-color: white;
+	color: gray;
+} */
